@@ -34,14 +34,26 @@
 		"vscode": {
 		  // Add the IDs of extensions you want installed when the container is created.
 		  "extensions": [
+			// https://mlops.community/how-to-configure-vs-code-for-ai-ml-and-mlops-development-in-python-%F0%9F%9B%A0%EF%B8%8F%EF%B8%8F/
 			"ms-python.python",
-			"ms-python.flake8",
 			"ms-python.vscode-pylance",
-			"ms-python.isort",
+			"ms-python.flake8",
+			"ms-python.pylint",
 			"ms-python.black-formatter",
-			"eamodio.gitlens",
+			"ms-python.isort",
 			"ms-toolsai.jupyter",
-			"tamasfe.even-better-toml"
+			"ms-toolsai.jupyter-renderers",
+			"eamodio.gitlens",
+			"usernamehw.errorlens",
+			"njpwerner.autodocstring", // generate docstrings from obj definitions
+			"KevinRose.vsc-python-indent",
+			"tamasfe.even-better-toml", // TOML language support
+			"redhat.vscode-yaml", // YAML language support
+			"yzhang.markdown-all-in-one", // editing Markdown files
+			"GitHub.vscode-github-actions", // manage GitHub Actions
+			"wayou.vscode-todo-highlight", // highlight TODO, FIXME annotations
+			"mikestead.dotenv", // highlight dotenv files
+			"ms-kubernetes-tools.vscode-kubernetes-tools"
 			],
 
 			"settings": {
